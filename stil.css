@@ -1,0 +1,33 @@
+*{
+    box-sizing:border-box;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+
+
+}
+nav{
+    overflow:hidden;
+    background:#808080;
+    line-height:40px;
+}
+
+nav a{
+    float:left;
+    display:block;
+    width:125px;
+    color:#ffffff;
+    text-align:center;
+    padding: 12px 14px;
+    text-decoration:none;
+    
+}
+nav a:hover{
+    background:#22ad5a;
+    color:black;
+}
+nav .container{
+    margin-top:10px;
+}
